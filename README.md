@@ -30,7 +30,8 @@ Berikut merupakan flowchart dari program **Sistem Manajemen Pemesanan Bouquet Bu
 <img width="718" height="162" alt="image" src="https://github.com/user-attachments/assets/0ad021a9-9929-4d3a-876c-c6c23bdebb86" />
 
 - Selanjutnya, user akan diminta password untuk role yang dipilih **(Password manager "bungaku123" - Password karyawan "caricuan321")**
-<img width="338" height="95" alt="image" src="https://github.com/user-attachments/assets/72a3b63b-18ba-44eb-9942-792591575540" /> <img width="289" height="103" alt="image" src="https://github.com/user-attachments/assets/537876f7-ce29-4dee-8b02-c019fb23c69f" />
+<img width="338" height="95" alt="image" src="https://github.com/user-attachments/assets/72a3b63b-18ba-44eb-9942-792591575540" />
+<img width="289" height="103" alt="image" src="https://github.com/user-attachments/assets/537876f7-ce29-4dee-8b02-c019fb23c69f" />
 
 - Pengguna memiliki 3 kali kesempatan untuk input password. Apabila kesempatan habis, maka program akan selesai, serta menampilkan pesan bahwa kesempatan habis dan login gagal
 <img width="460" height="282" alt="image" src="https://github.com/user-attachments/assets/61d6e9be-a056-409f-9fdf-837a4899749d" />
