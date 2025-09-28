@@ -137,6 +137,7 @@ Berikut merupakan flowchart dari program **Sistem Manajemen Pemesanan Bouquet Bu
 
 ### Menu 3 - Keluar >>>
 - Menampilkan "Terima kasih sudah menggunakan layanan kami <3" dan program selesai.
-<img width="420" height="161" alt="image" src="https://github.com/user-attachments/assets/509fcc8b-3edf-4ec4-a378-1400af6e5d11" />
+<img width="381" height="147" alt="image" src="https://github.com/user-attachments/assets/841b7a0d-c05e-4b8d-bc80-ec087188727a" />
+
 
 
