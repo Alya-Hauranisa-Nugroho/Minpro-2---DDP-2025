@@ -37,16 +37,15 @@ Berikut merupakan flowchart dari program **Sistem Manajemen Pemesanan Bouquet Bu
 - Apabila password benar, maka akan masuk ke menu utama dari masing-masing role
 <img width="514" height="270" alt="image" src="https://github.com/user-attachments/assets/7b2aec2b-dcfd-4642-8158-6fc27592b4b6" /> <img width="476" height="241" alt="image" src="https://github.com/user-attachments/assets/12dc7038-bae4-402f-8bb4-7bc8232d92e0" />
 
-# Menu Manager
+## Menu Manager
 - Menu ini memungkinkan manager untuk mengakses seluruh **CRUD (Create, Read, Update, dan Delete)**
 - Saat membuka program, pengguna akan diminta untuk input angka dari 1-5 untuk memilih menu yang tersedia
-
+<img width="284" height="134" alt="image" src="https://github.com/user-attachments/assets/165279d8-87d2-42cf-9c60-7badc662f51f" />
 
 - Apabila angka menu yang diinput tidak sesuai, maka program akan menampilkan pesan bahwa input tidak valid dan akan mengulang dari proses input pilihan menu.
 <img width="479" height="508" alt="image" src="https://github.com/user-attachments/assets/4d752159-6b06-4f5e-9cca-8bb7e376bd08" />
 
-
-## Menu 1 - Tambah Orderan
+### Menu 1 - Tambah Orderan
 - Menu ini memungkinkan pengguna **menambahkan orderan baru** ke dalam list orderan
 - Pada menu ini, pengguna akan diminta untuk memasukkan input nama pemesan, No HP, paket bouquet yang dipilih, custom (+add on bunga), warna wrapping paper, serta tanggal pengambilan.
 <img width="486" height="526" alt="image" src="https://github.com/user-attachments/assets/5c20ac79-debf-4c0c-969e-f8999faf8071" />
@@ -60,7 +59,7 @@ Berikut merupakan flowchart dari program **Sistem Manajemen Pemesanan Bouquet Bu
 - Apabila ditengah input paket bouquet, custom bunga, ataupun warna wrapping paper pengguna memasukkan input yang salah, maka program melakukan ErrorHandling dengan menampilkan pesan kesalahan dan pengguna diminta untuk kembali memasukkan input
 <img width="366" height="228" alt="image" src="https://github.com/user-attachments/assets/5d470403-8562-4b92-a8a7-97c5fa56a8e9" />
 
-## Menu 2 - Lihat Orderan
+### Menu 2 - Lihat Orderan
 - Menu ini memungkinkan pengguna untuk **melihat orderan** yang ada
 - Apabila jumlah list orderan = 0, maka program akan menampilkan output "Belum ada orderan, tetap semangat!!" dan kembali ke menu utama.
 <img width="345" height="166" alt="image" src="https://github.com/user-attachments/assets/757d11ad-c3ed-4b14-b2af-21a721911729" />
@@ -68,34 +67,41 @@ Berikut merupakan flowchart dari program **Sistem Manajemen Pemesanan Bouquet Bu
 - Namun, apabila list orderan terisi, maka program akan menampilkan seluruh daftar orderan dan kembali ke menu utama.
 <img width="601" height="547" alt="image" src="https://github.com/user-attachments/assets/6898b516-1437-44a9-91e1-468d53b42175" />
 
-## Menu 3 - Update Status
+### Menu 3 - Update Status
 - Menu ini memungkinkan pengguna untuk **update status** dari sebuah orderan
-
 - Apabila jumlah list orderan = 0, maka program akan menampilkan output "Belum ada orderan yang bisa dihapus :(" dan kembali ke menu utama
+<img width="397" height="188" alt="image" src="https://github.com/user-attachments/assets/1062ba45-ba3c-40b8-9b66-5adf55fad71e" />
 
 - Jika list orderan terisi, maka program akan menampilkan daftar orderan dan pengguna diminta untuk input nomor orderan yang statusnya ingin diupdate.
+<img width="395" height="523" alt="image" src="https://github.com/user-attachments/assets/7ad74ac7-4c79-4d95-ba88-f254648c82fe" />
 
 - Selanjutnya, pengguna diminta untuk input angka 1-3 untuk menentukan status baru, sehingga program dapat mengubah elemen list sesuai dengan index yang dimasukkan. 
+<img width="247" height="94" alt="image" src="https://github.com/user-attachments/assets/9db117f1-ada5-4313-93fb-d26b4730e477" />
 
 - Program akan menampilkan orderan yang telah ter-update dan kembali ke menu utama.
+<img width="505" height="317" alt="image" src="https://github.com/user-attachments/assets/5299a942-991f-4c99-a576-243a5f9bb402" />
 
 - Apabila ditengah menjalankan menu ini pengguna memasukkan input yang salah, maka program melakukan ErrorHandling dengan menampilkan pesan kesalahan dan pengguna diminta untuk kembali memasukkan input
+<img width="427" height="419" alt="image" src="https://github.com/user-attachments/assets/d9cde18d-e729-4d1e-9d5b-9657822495d5" />
 
-
-
-## Menu 4 - Hapus Orderan
-- Menu ini memungkinkan pengguna untuk **menghapus orderan** yang ada
-
+### Menu 4 - Hapus Orderan
+- Menu ini memungkinkan pengguna untuk **menghapus orderan** yang ada.
 - Apabila jumlah list orderan = 0, maka program akan menampilkan output "Belum ada orderan yang bisa dihapus :(" dan kembali ke menu utama.
+<img width="358" height="192" alt="image" src="https://github.com/user-attachments/assets/261598ef-7c4e-4175-be74-d0f0f5922535" />
 
 - Jika list orderan terisi, maka program akan menampilkan daftar orderan dan pengguna diminta untuk input nomor orderan yang ingin dihapus.
+<img width="539" height="554" alt="image" src="https://github.com/user-attachments/assets/a1183abd-fc34-4d6d-ac59-b0c097e4700c" />
 
 - Selanjutnya, program akan menghapus orderan yang terpilih.
+<img width="406" height="20" alt="image" src="https://github.com/user-attachments/assets/284da70a-6334-48a3-bc7c-609c96f0aff9" />
 
-- Program akan menampilkan seluruh daftar orderan terbaru.
+- Program akan menampilkan seluruh daftar orderan terbaru dan kembali ke halaman utama.
+<img width="481" height="384" alt="image" src="https://github.com/user-attachments/assets/66e5e917-5db5-4d08-9dc2-f886bb5013a2" />
 
-- Apabila ditengah menjalankan menu ini pengguna memasukkan input yang salah, maka program melakukan ErrorHandling dengan menampilkan pesan kesalahan dan pengguna diminta untuk kembali memasukkan input
-
+- Apabila ditengah menjalankan menu ini pengguna memasukkan input yang salah, maka program melakukan ErrorHandling dengan menampilkan pesan kesalahan dan pengguna diminta untuk kembali memasukkan input.
+<img width="390" height="456" alt="image" src="https://github.com/user-attachments/assets/a4f67bf8-a1d7-4ba4-9d94-2376c70db6f1" />
 
 ## Menu 5 - Keluar >>>
 - Menampilkan "Terima kasih sudah menggunakan layanan kami <3" dan program selesai.
+<img width="420" height="161" alt="image" src="https://github.com/user-attachments/assets/509fcc8b-3edf-4ec4-a378-1400af6e5d11" />
+
