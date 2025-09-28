@@ -21,7 +21,8 @@ program ini juga telah memuat seluruh sistem CRUD (Create, Read, Update, dan Del
 
 # Flowchart
 Berikut merupakan flowchart dari program **Sistem Manajemen Pemesanan Bouquet Bunga**\
-<img width="16384" height="11743" alt="MINPRO2AlyaHauranisa Nugroho drawio" src="https://github.com/user-attachments/assets/86a4c196-5311-407a-be8d-6e8a162ff575" />
+<img width="16384" height="11812" alt="MINPRO2AlyaHauranisa Nugroho" src="https://github.com/user-attachments/assets/0b420b13-104b-4ec4-a19b-5f24a0e2a511" />
+
 
 # Alur Program
 ## Login
